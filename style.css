@@ -1,0 +1,45 @@
+html {
+    zoom: 1.2;
+}
+
+body {
+width: 300px;
+font-family: 'Trebuchet MS';
+text-align: center;
+font-size: 1.25rem;
+background-color: royalblue;
+color: white;
+
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+
+    /* When hovering over the button your cursor turns into a pointer */
+    cursor: pointer;
+
+    /* Sets border and background colour of button */
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#add-note-button {
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+p {
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    color: black;
+    min-width: 175px;
+    display: inline-block;
+    margin: 10px;
+}
