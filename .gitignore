@@ -32,5 +32,6 @@ out/
 !.vscode/extensions.json
 
 
+*.xpi
 *.zip
 comments.js

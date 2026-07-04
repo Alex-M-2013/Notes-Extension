@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Notes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "browser_specific_settings": {
     "gecko": {
       "id": "notes-extension@outlook.com",
@@ -15,6 +15,6 @@
   "description": "A simple note-taking extension.",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png"
+    "default_icon": "images/icon.png"
   }
 }
