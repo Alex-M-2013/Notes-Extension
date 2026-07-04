@@ -1,7 +1,17 @@
 {
   "manifest_version": 3,
   "name": "Notes",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "notes-extension@yourdomain.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
   "description": "A simple note-taking extension.",
   "action": {
     "default_popup": "popup.html",
